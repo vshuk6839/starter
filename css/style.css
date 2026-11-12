@@ -5,6 +5,13 @@
 
 /* ---------- Provided styles: do not change these ---------- */
 *{ border: 1px soild red; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Calibri, Arial, sans-serif;
   color: #1F3864;
@@ -33,7 +40,7 @@ h1, h2, h3 {
 
 .card {
   background-color: #FFFFFF;
-  width: 339px;
+  width: 400px;
   padding: 24px ;
   border: 10px soild #1f3864;
   margin: 0 auto;
